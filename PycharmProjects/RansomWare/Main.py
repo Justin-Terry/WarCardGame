@@ -36,6 +36,7 @@ def MyDecrypt(cipherText, key, iv):
 
 def MyFileEncrypt(filepath):
     # Get the file extension
+    #
     ext = getExtension(filepath)
     # Open the file and reads the bytes
     file = open(filepath, "rb")
